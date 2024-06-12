@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Loved+by+the+King&family=Lovers+Quarrel&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    position: relative; /* Adicionar para permitir posicionamento relativo */
+    overflow: hidden; /* Evitar rolagem */
+    background: linear-gradient(white ,rgb(255, 148, 166));
+}
+
+.container {
+    text-align: center;
+}
+
+h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 45px;
+    text-shadow: 5px 5px 5px white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    font-size: 18px;
+    padding: 20px 30px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    position: absolute; /* Permitir que os botões se movam livremente */
+    font-family: "Mont-serrat", cursive;
+}
+
+#yes-button {
+    margin-left: -40%;
+    background-color: #4caf50;
+    color: white;
+    position: static; /* Manter o botão "Sim" estático */
+    cursor: pointer;
+    box-shadow: 3px 3px 3px white;
+}
+
+#no-button {
+    background-color: #f44336;
+    color: white;
+    cursor: none;
+    box-shadow: 3px 3px 3px white;
+}
+
+#hearts{
+    position: absolute;
+    bottom: 0vw;
+    right: 0%;
+    z-index: -999;
+    width: 100%;
+    height: auto;
+}
+
+#emojicoracao{
+    position: absolute;
+    z-index: -999;
+    height: auto;
+    top: 10vw;
+    width: 60%;
+}
